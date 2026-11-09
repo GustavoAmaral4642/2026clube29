@@ -1,0 +1,133 @@
+.introducao_atividade {
+	height: auto;
+	background: url('../img/bg-atividade.jpg') no-repeat center ;
+	background-size: cover;
+}
+
+.subsecao_atividade {
+	width: 100%;
+	height: auto;
+	background-color: rgba(227, 229, 235, 0.3); /* cinza fundo com alpha*/
+	padding-bottom: 40px;
+}
+
+.subsecao_atividade .subtitulo {
+	font-size: 34px;
+	font-weight: bold;
+	color: #464C61; /* azul de fontes */
+	margin-top: 50px;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1)
+}
+
+.subsecao_atividade .subtitulo:after {
+	content: "";
+	width: 115px;
+	height: 2px;
+	display: block;
+	background: url('../img/linha.jpg') no-repeat center;
+	position: absolute;
+	top: 70px;
+	left: -156px;
+	box-shadow: 3px 3px 10px rgba(230,11,11,0.2)
+}
+
+.subsecao_atividade ul li {
+	padding-bottom: 100px;
+}
+
+.agenda_horario {
+	margin: 40px 85px 0px 85px;
+}
+
+.agenda_horario p {
+	text-align: right;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 25px;
+	color: #464C61; /* azul de fontes */
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1)
+}
+
+.agenda_horario p:after {
+	content: "";
+	width: 600px;
+	height: 1px;
+	display: block;
+	background: url('../img/linha-interna.jpg') no-repeat center;
+	left: 350px;
+	position: absolute;
+	margin-top: -12px;
+	box-shadow: 3px 3px 10px rgba(230,11,11,0.2)
+}
+
+.item_horario {
+	text-align: right;
+	font-size: 14px;
+	line-height: 25px;
+	color: #464C61; /* azul de fontes */
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1)
+}
+
+.item_horario p{
+	font-weight: normal;
+}
+
+.item_aviso {
+	text-align: right;
+	padding-right: 10px;
+	color: #464C61; /* azul de fontes */
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1)
+}
+
+.item_aviso p{
+	font-size: 10px;
+	line-height: 15px;
+	font-weight: normal;
+}
+
+.item_categoria {
+	text-align: right;
+	color: #464C61; /* azul de fontes */
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1)
+}
+
+
+.item_categoria p{
+	font-size: 14px;
+	line-height: 15px;
+	font-weight: normal;
+}
+
+.subsecao_como_inscrever {
+	width: 100%;
+	height: auto;
+	background-color: rgb(215, 234, 251); /* azul fundo*/
+}
+
+.quote_como_me_inscrever {
+	text-align: center;
+	padding: 60px 0 20px 0;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	color: rgb(70, 76, 97);
+}
+
+.subsecao_como_inscrever .subtitulo {
+	font-size: 34px;
+	font-weight: bold;
+	color: #464C61; /* azul de fontes */
+	margin-top: 50px;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1)
+}
+
+.subsecao_como_inscrever .subtitulo:after {
+	content: "";
+	width: 115px;
+	height: 2px;
+	display: block;
+	background: url('../img/linha.jpg') no-repeat center;
+	position: absolute;
+	top: 70px;
+	left: -156px;
+}

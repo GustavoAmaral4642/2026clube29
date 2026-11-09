@@ -1,0 +1,663 @@
+
+/* Estilo para tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px){
+
+/* Estilos Gerais */
+
+.call-to-action{
+	padding: 0 0;
+	margin: 50px auto 30px auto; 
+}
+
+/*header*/
+.header {
+	padding-bottom: 0px;
+}
+
+.logotipo_responsivo{
+	margin: 0 -40%;
+}
+
+.header_menu {
+	text-align: center;
+	margin-top: -5px;
+}
+
+.header_menu ul li {
+	margin-left: 0;
+	margin-top: 10px;
+}
+
+.header_menu ul li a {
+	border: 2px solid #E3E5EB; /*cinza claro*/
+	border-radius: 50px;
+	width: 140px;
+	display: block;
+	float: left;
+}
+
+.header_menu ul li a:hover {
+	border-color: #B1B1B1; /*cinza escurinho*/
+}
+
+.header_menu ul li a.menu_ativo {
+	border-color: #B1B1B1; /*cinza escurinho*/
+}
+
+.header_redes {
+	margin-top: 0px;
+	display: inline-block;
+}
+
+.header_redes li {
+	width: 62px;
+}
+
+/* Introdução */
+
+.introducao {
+	height: auto;
+	padding-top: 180px;
+}
+
+.introducao h1 {
+	font-size: 36px;
+}
+
+.quote-interno {
+	margin-bottom: 70px;
+}
+
+.introducao .paragrafo_call_topo {
+	font-size: 14px;
+	font-weight: normal;
+	color: #fff;
+	margin-top: 10px;
+	text-shadow: 3px 3px 6px rgba(25,76,128,1)
+}
+
+/* subsecao atividades*/
+
+.subsecao_home_atividades {
+	height: auto;
+}
+
+.subsecao_home_atividades .subtitulo {
+	font-size: 32px;
+	margin-top: 30px;
+}
+
+.subsecao_home_atividades .subtitulo:after {
+	width: 50px;
+	top: 50px;
+	left: -70px;
+	box-shadow: 3px 3px 10px rgba(230,11,11,0.2)
+}
+
+.lista_atividades_home {
+	padding-top: 30px;
+	height: 250px;
+	font-size: 22px;
+	line-height: 1em;
+}
+
+.call-to-action-atividades {
+	margin: 30px auto 30px auto; 
+}
+
+/* subsecao eventos*/
+
+.subsecao_home_eventos .subtitulo {
+	font-size: 32px;
+	margin-top: 30px;
+}
+
+.subsecao_home_eventos .subtitulo:after {
+	width: 50px;
+	top: 50px;
+	left: -70px;
+	box-shadow: 3px 3px 10px rgba(230,11,11,0.2)
+}
+
+.subtitulo_h3 {
+	font-size: 18px;
+	line-height: 24px;
+	display: initial;
+}
+
+/* subsecao galeria*/
+
+.subsecao_home_galeria .subtitulo {
+	font-size: 32px;
+	margin: 30px auto 40px auto;
+}
+
+.subsecao_home_galeria .subtitulo:after {
+	width: 50px;
+	top: 50px;
+	left: -70px;
+	box-shadow: 3px 3px 10px rgba(230,11,11,0.2)
+}
+
+.call-to-action-galeria {
+	margin: 50px auto 35px auto;
+}
+
+/* secao conheca */
+
+.subsecao_conhecer {
+	height: auto;
+}
+
+.subsecao_conhecer .subtitulo {
+	font-size: 32px;
+	margin-top: 30px;
+}
+
+.subsecao_conhecer .subtitulo:after {
+	width: 50px;
+	top: 50px;
+	left: -70px;
+	box-shadow: 3px 3px 10px rgba(230,11,11,0.2)
+}
+
+.galeria_conhecer {
+	margin: 50px auto 35px auto;
+}
+
+/* seção atividades */
+
+.subsecao_atividade .subtitulo {
+	font-size: 32px;
+	margin-top: 30px;
+}
+
+.subsecao_atividade .subtitulo:after {
+	width: 50px;
+	top: 50px;
+	left: -70px;
+	box-shadow: 3px 3px 10px rgba(230,11,11,0.2)
+}
+
+.subsecao_atividade ul li {
+	padding-bottom: 0px;
+}
+
+.agenda_horario {
+	margin: 40px 40px 0px 40px;
+}
+
+.agenda_horario p:after {
+	width: 500px;
+	left: 260px
+}
+
+.item_aviso {
+	padding-right: 0px;
+	padding-left: 270px;
+	text-align: left;	
+}
+
+.subsecao_como_inscrever .subtitulo {
+	font-size: 32px;
+	margin-top: 40px;
+}
+
+.subsecao_como_inscrever .subtitulo:after {
+	width: 50px;
+	top: 50px;
+	left: -70px;
+	box-shadow: 3px 3px 10px rgba(230,11,11,0.2)
+}
+
+.quote_como_me_inscrever {
+	padding: 40px 0 0 0;
+}
+
+/* eventos */
+
+.subsecao_eventos .subtitulo {
+	font-size: 32px;
+	margin-top: 30px;
+}
+
+.subsecao_eventos .subtitulo:after {
+	width: 50px;
+	top: 50px;
+	left: -70px;
+	box-shadow: 3px 3px 10px rgba(230,11,11,0.2)
+}
+
+.galeria_eventos {
+	margin: 50px auto 35px auto;
+}
+
+/* Galeria  */
+
+.subsecao_galeria .subtitulo {
+	font-size: 32px;
+	margin-top: 30px;
+}
+
+.subsecao_galeria .subtitulo:after {
+	width: 50px;
+	top: 50px;
+	left: -70px;
+	box-shadow: 3px 3px 10px rgba(230,11,11,0.2)
+}
+
+.galeria_foto_lista {
+	padding-top: 30px;
+}
+
+.galeria_foto_lista li {
+	margin-bottom: 40px;
+}
+
+/* contato */
+
+.subsecao_contato .subtitulo {
+	font-size: 32px;
+	margin-top: 30px;
+}
+
+.subsecao_contato .subtitulo:after {
+	width: 50px;
+	top: 50px;
+	left: -70px;
+	box-shadow: 3px 3px 10px rgba(230,11,11,0.2)
+}
+
+.mapa_contato a img {
+	width: 100%;
+	height: auto;
+}
+
+}
+
+/* Estilo para smartphone*/
+@media only screen and (max-width: 787px){
+
+/* Estilos gerais*/
+
+.call-to-action{
+	padding: 10px 0;
+	margin: 25px auto ; 
+}
+
+/*header*/
+.header {
+	padding-bottom: 0px;
+}
+
+.logotipo_responsivo{
+	margin: 0 -15%;
+}
+
+.header_menu {
+	text-align: center;
+	margin-top: -5px;
+}
+
+.header_menu ul li {
+	margin-left: 0;
+	margin-top: 10px;
+}
+
+.header_menu ul li a {
+	border: 2px solid #E3E5EB; /*cinza claro*/
+	border-radius: 50px;
+	width: 140px;
+	display: block;
+	float: left;
+}
+
+.header_menu ul li a:hover {
+	border-color: #B1B1B1; /*cinza escurinho*/
+}
+
+.header_menu ul li a.menu_ativo {
+	border-color: #B1B1B1; /*cinza escurinho*/
+}
+
+.header_redes {
+	text-align: right;
+	margin-top: -275px;
+}
+
+
+/*introdução*/
+.introducao {
+	 height: auto;
+	 padding-top: 330px;
+	 text-align: center;
+}
+
+.introducao h1 {
+	font-size: 32px;
+	color: #E3E5EB; /*cinza claro*/
+}
+
+.introducao blockquote p {
+	font-size: 14px;
+}
+
+.quote-interno {
+	margin-bottom: 57px;
+}
+
+.btn {
+	padding: 10px 50px;
+	background-color: #F23C24; /*Laranja*/
+	color: rgba(240, 240, 240); /*cinza claro com alpha*/
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	border-radius: 50px 50px 50px 50px;
+	box-shadow: 3px 3px 6px rgba(25,76,128,0.3)
+}
+
+/* subsecao atividades*/
+
+.subsecao_home_atividades {
+	text-align: center;
+	height: auto;
+}
+
+.subsecao_home_atividades .subtitulo {
+	font-size: 32px;
+	margin-top: 30px;
+}
+
+.subsecao_home_atividades .subtitulo:after {
+	top: 70px;
+	left: 91px;
+}
+
+.lista_atividades_home {
+	padding-top: 30px;
+	height: auto;
+	font-size: 18px;
+}
+
+.itens_lista_atividades {
+	margin-bottom: 20px;
+}
+
+.ultimo_item_lista_atividades {
+	margin-bottom: 0px ;
+}
+
+.subsecao_home_atividades_lista_responsivo {
+	width: 130px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.agenda_horario p:after {
+	display: none;
+}
+
+/* subsecao eventos*/
+
+.subsecao_home_eventos {
+	text-align: center;
+}
+
+.subsecao_home_eventos .subtitulo {
+	font-size: 32px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.subsecao_home_eventos .subtitulo:after {
+	top: 70px;
+	left: 91px;
+}
+
+.subtitulo_h3 {
+	font-size: 18px;
+	line-height: 24px;
+	display: initial;
+}
+
+.galeria_eventos_home {
+	margin: 30px 0px 30px 0px;
+}
+
+/* subsecao galeria*/
+
+.subsecao_home_galeria {
+	text-align: center;
+} 
+
+.subsecao_home_galeria .subtitulo {
+	font-size: 32px;
+	margin: 30px auto 40px auto;
+}
+
+.subsecao_home_galeria .subtitulo:after {
+	top: 70px;
+	left: 94px;
+}
+
+.call-to-action-galeria {
+	margin: 30px auto;
+}
+
+/* seção conheça */
+
+.subsecao_conhecer {
+	text-align: center;
+	height: auto;
+}
+
+.subsecao_conhecer .subtitulo {
+	font-size: 32px;
+	margin-top: 30px;
+}
+
+.subsecao_conhecer .subtitulo:after {
+	top: 70px;
+	left: 91px;
+}
+
+.galeria_conhecer {
+	margin: 30px 0px 50px 0px;
+}
+
+/* seção atividades */
+
+.subsecao_atividade {
+	text-align: center;
+	height: auto;
+	padding-bottom: 0px;
+
+}
+
+.subsecao_atividade .subtitulo {
+	font-size: 32px;
+	margin-top: 30px;
+}
+
+.subsecao_atividade .subtitulo:after {
+	top: 70px;
+	left: 91px;
+}
+
+.subsecao_atividade ul li {
+	padding-bottom: 50px;
+}
+
+.agenda {
+	padding-top: 10px;
+}
+
+.agenda_horario {
+	margin: 0 0 0 0;
+}
+
+.agenda_horario p {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.agenda_horario p:after {
+	background: none;
+}
+
+.item_horario {
+	margin-bottom: 0px;
+	text-align: center;
+	width: 140px;
+	display: inline-block;
+}
+
+.item_aviso {
+	text-align: center;
+	padding-right: 0px;	
+}
+
+.item_categoria {
+	text-align: center;
+	margin: 10px 0;
+}
+
+.subsecao_como_inscrever .subtitulo {
+	font-size: 32px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.subsecao_como_inscrever .subtitulo:after {
+	top: 120px;
+	left: 91px;
+}
+
+.quote_como_me_inscrever {
+	text-align: center;
+	padding: 40px 0 10px 0;
+}
+
+.call_como_me_inscrever {
+	text-align: center;
+}
+
+/* eventos */
+
+.subsecao_eventos .subtitulo {
+	font-size: 32px;
+	margin-top: 40px;
+}
+
+.subsecao_eventos .subtitulo:after {
+	top: 80px;
+	left: 91px;
+}
+
+.galeria_eventos {
+	margin: 30px 0px 50px 0px;
+}
+
+/* galeria */
+
+
+.subsecao_galeria {
+	text-align: center;
+}
+
+.subsecao_galeria .subtitulo {
+	font-size: 32px;
+	margin-top: 40px;
+}
+
+.subsecao_galeria .subtitulo:after {
+	top: 80px;
+	left: 91px;
+}
+
+/* contato */
+
+.subsecao_contato {
+	text-align: center;
+}
+
+.subsecao_contato .subtitulo {
+	font-size: 32px;
+	margin-top: 40px;
+}
+
+.subsecao_contato .subtitulo:after {
+	top: 80px;
+	left: 91px;
+}
+
+.subsecao_contato .grid-16 {
+	margin: 0 0 0 0;
+}
+
+.contato_form {
+	padding-right: 0;
+}
+
+.btn-form {
+	margin-bottom: 20px;
+}
+.subtitulo_h3 {
+	padding: 0;
+}
+
+.lista_redes {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.mapa_contato a img {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+
+
+/* Footer */
+
+.footer {
+	text-align: center;
+}
+
+.footer h3 {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 28px;
+}
+
+.footer_sobre {
+	padding-right: 0;
+}
+
+.footer_sobre p {
+	padding-bottom: 15px;
+}
+
+.footer_horario {
+	padding-right: 0;
+	padding-bottom: 15px;
+
+}
+
+.footer_contato {
+	padding-right: 0;
+	padding-bottom: 15px;
+
+}
+
+.footer_redes {
+	padding-right: 0;
+	padding-bottom: 0;
+
+}
+
+}

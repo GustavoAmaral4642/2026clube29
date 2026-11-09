@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Clube 29 - Eventos</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/contato.css">
+	<link rel="stylesheet" href="css/responsivo.css">
+	<link rel="icon" href="img/logotipo.ico" type="image/png">
+	<script>document.documentElement.classList.add("js")</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+	<section class="introducao introducao_contato js-scroll">
+		<div class="container js-scroll">
+			<h1>Contato</h1>
+			<blockquote class="quote-interno">
+				<p>fundado em 1953 o clube 29 de agosto, vem melhorando desde
+					então para que seu associado possa desfrutar cada momento de sua
+					vida ao nosso lado, fazendo parte dessa grande família.</p>
+			</blockquote>
+		</div>
+	</section>
+
+	<header class="header js-scroll">
+		<div class="container">
+			<a href="index.html" class="grid-3">
+				<img class="logotipo_responsivo" src="img/logotipo.png" alt="Club 29 de Agosto">
+			</a>
+			<nav class="grid-10 header_menu">
+				<ul>
+					<li><a href="conheca.html">CONHEÇA</a></li>
+					<li><a href="atividades.html">ATIVIDADES</a></li>
+					<li><a href="eventos.html">EVENTOS</a></li>
+					<li><a href="galeria.html">GALERIA</a></li>
+					<li><a href="contato.html" class="menu_ativo">CONTATO</a></li>
+				</ul>
+			</nav>
+			<ul class="grid-3 header_redes">
+				<li><a href="https://www.facebook.com/Clube29" target="_blank"><img src="img/icones/redes/facebook.svg"></a></li>
+				<li><a href="https://www.instagram.com/clube.29/" target="_blank"><img src="img/icones/redes/instagram.svg"></a></li>
+			</ul>
+		</div>
+	</header>
+
+	<section class="subsecao_contato js-scroll">
+		<div class="container">
+			<h2 class="subtitulo">Entre em Contato</h2>
+
+			<div class="grid-16">
+				<form id="form_contato" method="POST" action="./enviar.php" class="contato_form grid-8 formphp">
+					<label for="nome">Nome</label>
+					<input type="text" id="nome" name="nome" required>
+					<label for="email">E-mail</label>
+					<input type="email" id="email" name="email" required>
+					<label for="telefone">Telefone</label>
+					<input type="text" id="telefone" name="telefone">
+
+					<label class="nao-aparece">Se você não é robô, deixe em branco.</label>
+					<input type="text" class="nao-aparece" name="dontchange">
+
+					<label class="nao-aparece">Se você não é robô, não mude este campo.</label>
+					<input type="text" class="nao-aparece" name="leaveblank" value="http://">
+
+					<label for="mensagem">Mensagem</label>
+					<textarea id="mensagem" name="mensagem" required></textarea>
+					<button id="enviar" name="enviar" type="submit" class="btn-form">Enviar</button>
+				</form>
+
+				<div class="contato_dados grid-7">
+					<h3 class="subtitulo_h3 subtitulo_h3_dados">Dados</h3>
+					<ul class="lista_dados_contato">
+						<li>(19) 3554 3288 </li>
+						<li>clube.29@hotmail.com</li>
+						<li class="item_lista_endereco">Rua Cel. Antônio Abade, 96,</li>
+						<li>CEP: 13617-200, Leme</li>
+						<li>SP - Brasil</li>
+					</ul>
+				</div>
+				<div class="contato_redes">
+					<h3 class="subtitulo_h3 subtitulo_h3_redes">Redes Sociais</h3>
+					<ul class="lista_redes">
+						<li>
+							<a href="https://www.facebook.com/Clube29" target="_blank">
+								<img src="img/icones/redes/facebook-escuro.svg">
+							</a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/clube.29/" target="_blank">
+								<img src="img/icones/redes/instagram-escuro.svg">
+							</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+
+			<div class="mapa_contato grid-16">
+				<a href="https://www.google.com/maps/place/Clube+29+de+Agosto/@-22.1822314,-47.3842041,17z/data=!3m1!4b1!4m5!3m4!1s0x94c80b7748367013:0x7621f10aa9724154!8m2!3d-22.1822364!4d-47.3820154" target="_blank">
+					<img src="img/contato/clube29.jpg">
+				</a>
+			</div>
+
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer">
+			<div class="container">
+				<div class="grid-4 footer_sobre">
+					<h3>Sobre</h3>
+					<p>Fundado em 1953 o Clube 29 de Agosto,
+						vem melhorando desde então para que
+						seu associado possa desfrutar cada
+						momento de sua vida ao nosso lado,
+						fazendo parte dessa grande família.</p>
+				</div>
+				<div class="grid-4 footer_horario">
+					<h3>Horário</h3>
+					<p>Segunda a Sexta <br>
+						07h - 22h</p>
+					<p>Sábado, Domingo e Feriados <br>
+						07h - 18h</p>
+				</div>
+				<div class="grid-4 footer_contato">
+					<h3>Contato</h3>
+					<ul>
+						<li>(19) 3554 - 3288</li>
+						<li>clube.29@hotmail.com</li>
+					</ul>
+				</div>
+				<div class="grid-4 footer_redes">
+					<h3>Redes</h3>
+					<ul>
+						<li><a href="https://www.facebook.com/Clube29" target="_blank"><img src="img/icones/redes/facebook.svg"></a></li>
+						<li><a href="https://www.instagram.com/clube.29/" target="_blank"><img src="img/icones/redes/instagram.svg"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="copy">
+				<div class="container">
+					<p class="grid-16">
+						Copyright 2020 - Todos os Direitos Reservados
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="./js/simple-form.js"></script>
+	<script src="./js/script.js"></script>
+</body>
+
+</html>

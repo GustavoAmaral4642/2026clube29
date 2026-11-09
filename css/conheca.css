@@ -1,0 +1,41 @@
+.introducao_conhecer {
+	background: url('../img/bg-conhecer.jpg') no-repeat center ;
+	background-size: cover;
+}
+
+.subsecao_conhecer {
+	width: 100%;
+	height: auto;
+	background-color: rgba(227, 229, 235, 0.3); /* cinza fundo com alpha*/
+}
+
+.subsecao_conhecer .subtitulo {
+	font-size: 34px;
+	font-weight: bold;
+	color: #464C61; /* azul de fontes */
+	margin-top: 50px;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1)
+}
+
+.subsecao_conhecer .subtitulo:after {
+	content: "";
+	width: 115px;
+	height: 2px;
+	display: block;
+	background: url('../img/linha.jpg') no-repeat center;
+	position: absolute;
+	top: 70px;
+	left: -156px;
+	box-shadow: 3px 3px 10px rgba(230,11,11,0.2)
+}
+
+.galeria_conhecer {
+	margin: 50px 85px 40px 85px;
+}
+
+.galeria_conhecer img{
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4)
+}

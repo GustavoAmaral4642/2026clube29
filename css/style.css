@@ -1,0 +1,453 @@
+/* Estilos Gerais*/
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+.btn {
+	padding: 10px 30px;
+	background-color: #F23C24; /*Laranja*/
+	color: rgba(240, 240, 240); /*cinza claro com alpha*/
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	border-radius: 10px 50px 50px 10px;
+	box-shadow: 3px 3px 6px rgba(25,76,128,0.3)
+}
+
+.btn:hover {
+	color: #B1B1B1;/*cinza escurinho*/
+	background-color: #CC0404; /*Laranja mais claro*/
+}
+
+.call-to-action{
+	padding: 10px 0;
+	margin: 50px auto 30px auto; 
+}
+
+/* existe um outro paragrafo_call, mas é para o topo da página*/
+.paragrafo_call_geral {
+	font-size: 14px;
+	font-weight: normal;
+	color: #464C61;
+	margin-top: 10px;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1)
+}
+
+/* início estilizar o scroll da página */
+html::-webkit-scrollbar{
+	width: 12px;
+}
+
+html::-webkit-scrollbar-thumb{
+	background:  #F23C24; /*Laranja mais claro*/
+	border: 2px solid rgba(240, 240, 240);
+	border-radius: 10px;
+}
+
+html::-webkit-scrollbar-track{
+	background:  rgba(227, 229, 235, 0.3); /*Laranja mais claro*/
+}
+
+/* fim estilizar o scroll da página */
+
+/* Header */
+
+.header {
+	position: absolute;
+	top: 0; 
+	width: 100%;
+	background-color: transparent;
+	padding: 15px 0;
+}
+
+.header_menu {
+	text-align: right;
+}
+
+.header_menu ul li {
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+.header_menu ul li a {
+	color: #E3E5EB; /*cinza claro*/
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0;
+	text-shadow: 3px 3px 6px rgba(25,76,128,1)
+}
+
+.header_menu ul li a:hover {
+	color: #B1B1B1; /*cinza escurinho*/
+}
+
+.header_menu ul li a.menu_ativo {
+	color: #B1B1B1; /*cinza escurinho*/
+}
+
+.header_redes {
+	text-align: right;
+}
+
+.header_redes li {
+	margin-right: -5px;
+	display: inline-block;
+}
+
+/* Introducao*/
+
+.introducao {
+	 width: 100%;
+	 height: 558px;
+	 background: url('../img/bg-home.jpg') no-repeat center ;
+	 background-size: cover;
+	 padding-top: 210px;
+	 box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.introducao h1 {
+	font-size: 48px;
+	color: #E3E5EB; /*cinza claro*/
+	font-weight: bold;
+	text-shadow: 3px 3px 10px rgba(25,76,128,1)
+}
+
+.introducao .paragrafo_call_topo {
+	font-size: 14px;
+	font-weight: normal;
+	color: #fff;
+	margin-top: 10px;
+	text-shadow: 3px 3px 6px rgba(25,76,128,1)
+}
+
+.quote-interno {
+	max-width: 487px;
+	color: #E3E5EB; /*cinza claro*/
+	padding-top: 15px;
+	margin-bottom: 105px;
+	text-shadow: 3px 3px 10px rgba(25,76,128,1)
+}
+
+/* subsecao atividades*/
+
+.subsecao_home_atividades {
+	width: 100%;
+	height: auto;
+	background-color: rgba(227, 229, 235, 0.3); /* cinza fundo com alpha*/
+}
+
+.subsecao_home_atividades .subtitulo {
+	font-size: 34px;
+	font-weight: bold;
+	color: #464C61; /* azul de fontes */
+	margin-top: 50px;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1)
+}
+
+.subsecao_home_atividades .subtitulo:after {
+	content: "";
+	width: 115px;
+	height: 2px;
+	display: block;
+	background: url('../img/linha.jpg') no-repeat center;
+	position: absolute;
+	top: 70px;
+	left: -156px;
+	box-shadow: 3px 3px 10px rgba(230,11,11,0.2)
+}
+
+.lista_atividades_home {
+	padding-top: 40px;
+	height: 280px;
+	font-size: 24px;
+	line-height: 20px;
+	color: #464C61; /* azul de fontes */
+	text-align: center;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1)
+}
+
+.itens_lista_atividades {
+	margin-bottom: 40px;
+}
+
+.ultimo_item_lista_atividades {
+	margin-bottom: 0px ;
+}
+
+.call-to-action-atividades {
+	margin: 0 auto 30px auto; 
+}
+
+
+/* subsecao eventos*/
+
+.subsecao_home_eventos {
+	width: 100%;
+	height: auto;
+	background-color: rgb(215, 234, 251); /* azul fundo*/
+	box-shadow: 3px 3px 10px rgba(227, 229, 235,1.0);
+}
+
+.subsecao_home_eventos .subtitulo {
+	font-size: 34px;
+	font-weight: bold;
+	color: #464C61; /* azul de fontes */
+	margin-top: 50px;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1)
+}
+
+.subsecao_home_eventos .subtitulo:after {
+	content: "";
+	width: 115px;
+	height: 2px;
+	display: block;
+	background: url('../img/linha.jpg') no-repeat center;
+	position: absolute;
+	top: 70px;
+	left: -156px;
+}
+
+.subtitulo_h3 {
+	margin-top: 20px;
+	font-size: 24px;
+	line-height: 20px;
+	line-height: .1em;
+	color: #464C61;
+}
+
+.galeria_eventos_home {
+	margin: 50px 85px 50px 85px;
+}
+
+.galeria_eventos_home img{
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4)
+}
+
+/* subsecao galeria*/
+
+.subsecao_home_galeria {
+	width: 100%;
+	height: auto;
+	background-color: rgba(227, 229, 235, 0.3); /* cinza fundo com alpha*/
+}
+
+.subsecao_home_galeria .subtitulo {
+	font-size: 34px;
+	font-weight: bold;
+	color: #464C61; /* azul de fontes */
+	margin: 50px auto 40px auto;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1)
+}
+
+.subsecao_home_galeria .subtitulo:after {
+	content: "";
+	width: 115px;
+	height: 2px;
+	display: block;
+	background: url('../img/linha.jpg') no-repeat center;
+	position: absolute;
+	top: 70px;
+	left: -156px;
+}
+
+.lista_fotos_galeria {
+	text-align: center;
+}
+
+.imagem_galeria {
+	border-radius: 10px;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4)
+}
+
+
+.call-to-action-galeria {
+	margin: 40px auto 30px auto ; 
+}
+
+/* Footer */
+
+.footer {
+	width: 100%;
+	background-image: 
+		linear-gradient(
+			-135deg, #3D97F2 60%, #001EB3
+		); 
+	color: #E3E5EB;
+	padding: 40px 0 20px 0;
+	box-shadow: 3px -3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.footer h3 {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 28px;
+}
+
+.footer_sobre {
+	padding-right: 30px;
+	text-shadow: 3px 3px 6px rgba(70, 76, 97, 0.4)
+}
+
+.footer_sobre p {
+	padding-top: 15px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 25px;
+}
+
+.footer_horario {
+	padding-right: 30px;
+	text-shadow: 3px 3px 6px rgba(70, 76, 97, 0.4)
+}
+
+.footer_horario p {
+	padding-top: 15px;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 25px;
+}
+
+.footer_contato {
+	padding-right: 30px;
+	text-shadow: 3px 3px 6px rgba(70, 76, 97, 0.4)
+}
+
+.footer_contato ul li {
+	padding-top: 15px;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 15px;
+}
+
+.footer_redes {
+	padding-right: 30px;
+	text-shadow: 3px 3px 6px rgba(70, 76, 97, 0.4)
+}
+
+.footer_redes ul li {
+	padding-top: 15px;
+	margin-right: -5px;
+	display: inline-block;
+}
+
+.copy {
+	text-align: center;
+	padding-top: 20px;
+	text-shadow: 3px 3px 6px rgba(70, 76, 97, 0.4)
+}
+
+.copy p {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.nao-aparece {
+	visibility: hidden;
+	position: absolute;
+	height: 0px;
+}
+
+#form-sucesso {
+	color: #31aa39;
+}
+
+#form-erro {
+	color: #f64540;
+}
+/* JAVASCRIPT */
+
+/* Início controles origamid*/
+.js [data-slide] {
+	position: relative;
+}
+
+.js [data-slide] > *{
+	position: absolute;
+	top: 0px;
+	opacity: 0;
+}
+
+.js [data-slide] > .active {
+	position: relative;
+	opacity: 1;
+	transition: opacity 500ms;
+}
+
+.js [data-slide-nav] {
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 0px 6px 40px 6px;
+	border: none;
+	padding: 0px;
+	border-radius: 6px;
+	text-indent: -200px;
+	overflow: hidden;
+	background: #B1B1B1;
+}
+
+.js [data-slide-nav] button.active {
+	background: #E1E1E1;
+	border:none;
+}
+
+.js [data-anime]{
+	opacity: 0;
+}
+
+.js .fadeInUp{
+	transform: translate3d(0, 20px, 0);
+}
+.js .fadeInRight{
+	transform: translate3d(20px, 0, 0);
+}
+.js .fadeInDown{
+	transform: translate3d(0, -20px, 0);
+}
+.js .fadeInLeft{
+	transform: translate3d(-20px, 0, 0);
+}
+
+.js .anime {
+	opacity: 1;
+	transform: none;
+	transition: opacity 800ms, transform 800ms;
+}
+
+/* Fim controles origamid*/
+
+/* Início Controle para fazer animação no scroll */
+.js .js-scroll {
+	opacity: 0;
+	transform: translate3d(-30px, 0, 0);
+	transition: opacity 1000ms, transform 1000ms;
+}
+
+.js .js-scroll.ativo {
+	opacity: 1;
+	transform: translate3d(0, 0, 0);
+}
+
+/* Fim Controle para fazer animação no scroll */
